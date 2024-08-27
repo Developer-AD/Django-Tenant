@@ -16,7 +16,7 @@ urlpatterns = [
     # path('logout/', views.logout_page, name="logout"),
 
     # # ----------------------- Student routes -----------------------
-    # path('student-add/', views.student_add, name="student_add"),
+    path('student-add/<roll>/<name>', views.student_add, name="student_add"),
     # path('student-edit/<int:id>/', views.student_edit,),
     # path('student-delete/<int:id>/', views.student_delete),
 
